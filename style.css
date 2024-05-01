@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+p{
+    margin-top: 5px;
+}
+
+li{
+    list-style: none;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.788);
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+h5{
+    color: rgb(101, 101, 247);
+}
+
+body{
+    background-color: skyblue;
+}
+
+article{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    color: white;
+}
+
+aside{
+    background-color: darkblue;
+    padding: 20px;
+}
+
+main{
+    background-color: rgb(230, 230, 247);
+    color: black;
+    padding: 20px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+section h3{
+    grid-column: 1/3;
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+}
